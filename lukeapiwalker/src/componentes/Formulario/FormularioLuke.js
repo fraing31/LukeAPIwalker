@@ -1,4 +1,5 @@
 function FormularioLuke(props){
+    console.log(props);
     return (
         <form onSubmit={(event) => props.buscarEnStarWars(event)}>
             <label htmlFor='selectBusqueda'>Buscar por: </label>
